@@ -122,16 +122,24 @@ The baseline used Groq's llama-3.3-70b-versatile without any prior training. Eac
 I lowered the learning rate to 1e-5 so that the model would update more slowly and so that low_effort and adequate would balance out by adequate becoming more properly fitted (reduce overfitting). This actually ended up backfiring and the model got worse. The results I have included are from the default parameter run. 
 
 ## Evaluation report
+### Baseline model
+**Baseline Accuracy:** 0.567
+**Baseline - Per-Class Scores:**
+| Label    | Precision | Recall | F1 Score |
+| ----------- | ---------- | -------- | -------- |
+|  substantive     |   0.52    |   1.00      |  0.69   |
+|    adequate      |     0.00    |     0.00     |   0.00     |
+|   low_effort       |    1.00      |    0.57     |   0.50    |
 
-### Accuracy
-Fine-tuned model accuracy: 0.667
-### Per-class
+### Fine-tuned Model
+**Fine-tuned model accuracy:** 0.667
+**Fine-tuned - Per-class Scores**
 | Label    | Precision | Recall | F1 Score |
 | ----------- | ---------- | -------- | -------- |
 |  substantive     |   0.67      |   0.83       |  0.74    |
 |    adequate      |     0.00    |     0.00     |   0.00     |
 |   low_effort       |    0.67      |    1.00      |   0.80     |
-### Confusion matrix
+#### Confusion matrix
 ![Fine-Tuned Model Confusion Matrix](confusion_matrix.png)
 | True \ Predicted | substantive | adequate | low_effort |
 | :--- | :---: | :---: | :---: |
@@ -149,7 +157,8 @@ Adequate vs. substantive is difficult because substantive is just some more deta
 I think both are a problem. I noticed some labels that were off. And adequate postings are actually a difficult category to find, so were a little less represented in the data (still more than 20% of the dataset though).
 
 **What would I need to change to fix it?**
-I would need more adequate examples, a tighter label definition, more labeling accuracy on my part, and more varied examplse. 
+I would need more adequate examples, a tighter label definition, more labeling accuracy on my part, and more varied examplse. I think the examples didn't cover enough adequate for the model to get the pattern. There was also some noise in the labeling because I made mistakes between adequate vs. substantive.
+
 ### Wrong Predictions + Analysis 
 1. 
 > Text:      Am I the only one who LOVES super long stories with tons of "filler" and thinks all novels/series are WAY too short?
@@ -176,7 +185,7 @@ I would need more adequate examples, a tighter label definition, more labeling a
 ## Reflection: What did the model learn vs. what I had intended it to learn?
 There was some annotation noise. I think for a couple of them the model learned well, but the training data was mislabeled. 
 ## Spec reflection
- - **How it helped:** I was able to clarify my labels properly through the examples and think through evaluation 
+ - **How it helped:** I was able to clarify my labels properly through the examples and think through evaluation. I also had an idea of what success would look like based on the success metrics defined in the spec. 
  - **How implementation diverged:** I actually intended to scrape reddit, but you have to get approved for the api, so I had to get data myself.
 
 ## AI Useage
