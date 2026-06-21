@@ -4,9 +4,9 @@ r/Fantasy is a discussion board for the broader fiction genre: it encompasses al
 
 ## Labels
 
-1. substantive: Post is detailed, specific, and engaged with the topic. Big conversation starter.
-2. low_effort: Vague post that is generic and lacking detail. 
-3. adequate: Post is less detailed, but still offers something new. A bit shallow.
+1. substantive: Post is detailed, specific, and engaged with the topic. Big conversation starter. Names specific books, authors, and themes; develops a point about them with reasoning or evidence. Substantive cites several details.
+2. low_effort: Vague post that is generic and lacking detail. No specific references. Could have been written by anyone not that engaged with the genres. Asks a question or pushes an opinion without supporting reasoning or context. Specific without a point. 
+3. adequate: Adequate makes one point and does not go further. Some familiarity with the genre but does not make an argument or add reasoning.
 
 ### Substantive: 
 #### Two Clear Examples
@@ -68,7 +68,58 @@ r/Fantasy is a discussion board for the broader fiction genre: it encompasses al
 - I think I would put this in low effort actually, but it is kind of on the line between that and adequate. 
 
 ## Edge Cases
+- **Lower effort posts that are descriptive:** These will be classified as low-effort. Any details which are purely descriptive and restating the question go into low_effort pile. Ex: (Memory, Sorrow, Thorns) Tad Williams
+- **Adequate posts which are on their way to being more descriptive.:** These go into adequate. The main thing is that they just have not shown that much thought and detail but are still provoking in some way. Ex: GoT post
+
+### Questions to aid labeling
+1. Is anything specific said about something referenced or is it just named? If no, low effort. 
+2. Is the point developed past observation? No means adequate, yes means substantive.
+
+## Data collection plan 
+### Example source
+Examples are on r/Fantasy: will grab headings and post text together. 
+### How many examples per label?
+We will use ~66-67 per label to get an even split. If a label is underrepresented, we will collect more. I will either hunt the reddit myself for posts or will re-run the scraper for more samples and verify. 
+
+## Evaluation
+- **Overall Accuracy:** gives a sense of how the classifier is doing overall. 
+- **Per-class precision, recall, and F1** because class imbalance can cause model to seem accurate when it is not. 
+- **Overall F1:** All labels are weight equally, overall F1 will not let a lesser amount of one label skew how accurate our model is.
+- **Confusion matrix** identify the label boundaries which are tricky
+| Label    | Precision | Recall | F1 Score |
+| ----------- | ---------- | -------- | -------- |
+|  substantive        |           |          |          |
+|    adequate          |           |          |          |
+|   low_effort           |           |          |          |
+
+
+## What does success look like for the classifier?
+Because this is a messy task I would say an overall F1 score of 0.70 to 0.80 would be good. That means we are pretty precise and getting good recall across labels.
 
 ## AI Tool Plan 
+### Label stress-testing
+Substantive ↔ Adequate
+1. "Brandon Sanderson is probably the most consistent author in fantasy — I've read six of his books and none of them have disappointed me. His magic systems are always the highlight. Anyone else feel this way or am I missing something?" [Adequate]
+2. "Just finished The Poppy War and I'm genuinely disturbed. I knew it was grimdark going in but nothing prepared me for the last third. Has anyone else had this reaction? Does it get worse in the sequels?" [Adequate]
+3. "I think fantasy as a genre handles grief better than literary fiction does. There's something about the distance of a fantastical setting that lets authors go deeper emotionally without it feeling manipulative. The way Abercrombie handles it in A Little Hatred made me think about this." [Adequate]
+Adequate ↔ Low Effort
+4. "Looking for something like The Stormlight Archive but shorter. I loved the worldbuilding and the magic system but the length is intimidating for my next pick." [Low Effort]
+5. "Is Malazan worth it? I've heard it's really hard to get into but also that it's the best fantasy series ever written. I've read Stormlight and Wheel of Time so I'm not afraid of long series." [Low Effort]
+6. "What fantasy book genuinely surprised you? I went into The Lies of Locke Lamora expecting a heist story and got something much more emotional than I anticipated." [Low Effort]
+All three are hard to place
+7. "I've been reading fantasy for 20 years and I think the genre peaked in the 90s. Modern fantasy is too focused on subverting tropes instead of just telling a good story. Thoughts?" [Adequate]
+8. "Does anyone else think first person narration is underused in epic fantasy? It works so well in smaller scale stories but I can't think of many epic fantasies that use it." [Adequate]
 
+#### What I learned from label stress-testing
+I was able to clarify that adequate posts must require at least something beyond referencing a book/media. 
+
+### Annotation Assistance
+Will use notes section to mark that something was pre-labeled, but I will be reviewing every one per guidelines. 
+
+### Failure Analysis
+Post training, I will paste misclassified snippets into Claude, and ask it to identify patterns. 
+
+In particular I will look for labels that are frequently confused between each other. If post length affects wrong predictions. If errors are usually a specific type: reviews, questions, or opinions.
+
+I will double-check the patterns identified by claude by rereading the flagged examples. 
 
