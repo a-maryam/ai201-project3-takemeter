@@ -1,0 +1,74 @@
+
+## Community
+r/Fantasy is a discussion board for the broader fiction genre: it encompasses all speculative fiction media, but what I've noticed is that a lot of posts tend to be about books/authors. I chose r/Fantasy because there are opinions, fantasy reviews, and open-ended discussion questions. Some are more detailed and well thought out; you can learn something from them. And some are less so. These distinctions matter because people prefer to read content that is thoughtful. There are a good variety of posts and they do tend to fall into ~3 categories excluding news type posts. 
+
+## Labels
+
+1. substantive: Post is detailed, specific, and engaged with the topic. Big conversation starter.
+2. low_effort: Vague post that is generic and lacking detail. 
+3. adequate: Post is less detailed, but still offers something new. A bit shallow.
+
+### Substantive: 
+#### Two Clear Examples
+1.
+>I will admit I went into this with a lot of preconceived notions. It's going to be slow, it's going to be dated, it's going to feature a lot of stuff I've already seen because it's so influential. But I went into it intending to give it a proper shot and so damn happy I did.
+
+> The book does start very slow, following the main character, a young scullion named Simon, as he runs around the castle and just takes in all the joys of being a young person. I expected this slowness from the start, but what I didn't expect is that this was honestly the best part of the book, not for the failings of the rest but because Williams manages to capture that joy of youth so damn perfectly even while setting up for the rest of the plot. Simon is curious, adventurous, and mischievous, and through him we get introduced to the beauty of this world.
+
+> Eventually the plot gets rolling and Williams shows you quickly he means business, bringing in some truly nightmarish imagery and starting Simon on a quest first simply to survive, but then to help save the world. He is no chosen one but one of many heroes helping to fight the spreading of a great evil they don't fully understand.
+
+> When the book kicks into adventure it brings constant surprises, as Simon comes across trolls, witches, princesses, and any number of monsters in his journey, slowly growing and maturing as the world takes away room for him more childish desires.
+
+> I cannot recommend this book enough. If you like classic, adventure focused fantasy, this is an absolute must read.
+2. 
+>Which fantasy authors would you say are the best and worst at writing dialogue?
+>Whatever best and worst means depends on you. I think good dialogue is more in service of character than it is plot. You, as an author, have a lot of tools at your disposal to communicate plot to the reader, so dialogue should be written with a character's personality in mind. Using it to remind the reader of what's happening should be secondary to that.
+#### Borderline / Not sure about
+> A list of non-western Game of Thrones type stories?
+> I love Game of Thrones/A Song of Ice and Fire. Here is what I think defines these stories
+> Political intrigue
+> Multiple POVs
+> A rich world
+> Villains are both mundane and magical.
+> Complex characters.
+> I know that’s all very simple, maybe someone smarter than me can condense it better. But I was wondering, are there a lot of books out there like Game of Thrones? Particularly those based in a non-western setting?
+> I know about Raag of Rta and Dandelion Dynasty.
+> Is there a Japanese game of thrones (other than shogun)? An Egyptian one? A Mesoamerican one? An Eastern European one? Sub-Saharan Africa? And so on?
+- There are some details but also could go low effort on this. 
+### Low Effort
+#### Two Clear Examples
+1. 
+> John Blanche, the Legendary Illustrator Who Defined the Look of Warhammer 40,000, Has Died
+> r/Fantasy - John Blanche, the Legendary Illustrator Who Defined the Look of Warhammer 40,000, Has Died 
+2. 
+> Recommend me a fantasy book that doesn’t teach me a lesson
+> In a bit of a reading lull trying to find my next read. Started Katabasis and then saw something about how it is so profound and teaches a lesson along with the story. That’s great, but coming from the thriller world where it’s just one story after another I’m looking for recommendations for series or standalones that are fantasy but don’t have a profound message at the end.
+> Don’t get me wrong I really enjoyed the Wheel of Time and the Stormlight Archive, but I guess I’m looking for something different.
+>Sorry if this is insulting to the genre, but just looking for something different for a bit.
+#### Borderline / Not sure about
+> Hi all! Long-time Fantasy lover here and just finished book 1/ beginning book 2 of Memory, Sorrow, and Thorn. The first book was terrific and I had no idea about this series or how influential it was to modern super franchises like ASOIAF. Am I just living under a rock? Is Tad Williams more celebrated than I know? if not, why isn’t he more of a household name of modern fantasy like GRRM, Rothfuss, Sanderson, Abercrombie, or Jordan?
+- I think I would label this as low-effort still. The only think that makes it contentious is mentioning other authors. That made me kind of wonder if it should be substantive. But otherwise it really lacks detail beyond the question itself. The poster just restates it. It's not a bad question though.
+
+### Adequate
+#### Two Clear Examples
+1.
+> What do you know well enough that when it's portrayed wrong you're taken out of the moment?
+> I used to shoot traditional archery and was moderately competent, but I read up a LOT on medieval archery. So when I see it done wrong in a movie (once I saw a guy draw a bow and the string stretched!), it kills my suspension of disbelief.
+>What is it you know about that writer's, actors, directors get wrong and spoils your enjoyment in the moment?
+2. 
+> How grim dark is the devils from Abercrombie?
+> My only connection with Grimdark content is the lore of Warhammer. It’s a fun backdrop for a tabletop game however I don’t think I would enjoy a novel that’s just a stories about how miserable the world is combined with ultra violent and vicious characters who are amoral for the purpose of edginess.
+> Would you recommend Abercrombie to me considering what I just said?
+#### Borderline / Not sure about
+> Gorgeous line from The Everlasting this morning
+> Started The Everlasting by Alix E. Harrow, one of my favorite fantasy writers.
+> A character picks up a book—and feels exactly like I do on my Saturday morning reading sessions: 
+> “I wanted to weep. I wanted to laugh. I wanted most of all to open the book and run the tips of my fingers over the pages, to prove that it was real and so was I.” (p. 9)
+> I just thought this was awesome and wanted to share it. Anyone else read some cool shit this morning?
+- I think I would put this in low effort actually, but it is kind of on the line between that and adequate. 
+
+## Edge Cases
+
+## AI Tool Plan 
+
+
