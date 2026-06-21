@@ -1,6 +1,6 @@
 
 ## Community
-r/Fantasy is a discussion board for the broader fiction genre: it encompasses all speculative fiction media, but what I've noticed is that a lot of posts tend to be about books/authors. I chose r/Fantasy because there are opinions, fantasy reviews, and open-ended discussion questions. Some are more detailed and well thought out; you can learn something from them. And some are less so. These distinctions matter because people prefer to read content that is thoughtful. There are a good variety of posts and they do tend to fall into ~3 categories excluding news type posts. 
+r/Fantasy is a discussion board for the broader fiction genre: it encompasses all speculative fiction media, but what I've noticed is that a lot of posts tend to be about books/authors. I chose r/Fantasy because there are opinions, fantasy reviews, and open-ended discussion questions. Some are more detailed and well thought out; you can learn something from them. And some are less so. These distinctions matter because people prefer to read content that is thoughtful and from someone who is knowledgeable about the genre. There are a good variety of posts and they do tend to fall into ~3 categories excluding news type posts. 
 
 ## Labels
 
@@ -67,7 +67,7 @@ r/Fantasy is a discussion board for the broader fiction genre: it encompasses al
 > I just thought this was awesome and wanted to share it. Anyone else read some cool shit this morning?
 - I think I would put this in low effort actually, but it is kind of on the line between that and adequate. 
 
-## Edge Cases
+## Edge Cases (3+ examples)
 - **Lower effort posts that are descriptive:** These will be classified as low-effort. Any details which are purely descriptive and restating the question go into low_effort pile. Ex: (Memory, Sorrow, Thorns) Tad Williams as seen earlier.
 - **Adequate posts which are on their way to being more descriptive.:** These go into adequate. The main thing is that they just have not shown that much thought and detail but are still provoking in some way. Ex: GoT post as seen earlier.
 - **Casual or emotional is not low_effort, if you have detail + opinion it is substantive or adequate:** 
@@ -84,6 +84,12 @@ r/Fantasy is a discussion board for the broader fiction genre: it encompasses al
 > Can someone reccomend a good sci-fi/fantasy with badly written characters/where characters don't matter?
 >I've always been a loner in a sense that I have yet to meet a person about whom I would care if they would suffer (unless it materially affects me). Likewise I don't care about human opinions and "inner world" unless it directly affects my material and I don't want people to love me or understand me beyond what's materially necessary. This makes reading fiction, especially the classic one, really hard since most of it is about that petty human drama. I've been reading old sci-fi and fantasy due to it with "bad characters" because no time is wasted on them but with interesting concepts like Lovecraft, Tolkien(Silmarillion), Clark Ashton Smith, Clarke, Asimov, Stapledon, Greg Egan, All Tomorrows, SCP and general hard sci-fi(I'm working in tech). I would love to learn other​ authors and media like that.
 - I labelled this adequate. It has observation and is unique but does not expand further.
+- **Length can be misleading**
+>I never noticed but Wheel of time protagonists were all derived from Norse Mythology
+
+>Rand as Tyr, Mat as a mixture of Loki and Odin and Perrin as Thor. I just came across the text a few days ago that Tyr's hand was also lost to Fenrir. Mat was also hanging from the tree and had lost an eye, like Odin and was called the Raven Prince.
+- The above is substantive but short
+
 
 ### Questions to aid labeling
 1. Is anything specific said about something referenced or is it just named? If no, low effort. 
