@@ -68,8 +68,22 @@ r/Fantasy is a discussion board for the broader fiction genre: it encompasses al
 - I think I would put this in low effort actually, but it is kind of on the line between that and adequate. 
 
 ## Edge Cases
-- **Lower effort posts that are descriptive:** These will be classified as low-effort. Any details which are purely descriptive and restating the question go into low_effort pile. Ex: (Memory, Sorrow, Thorns) Tad Williams
-- **Adequate posts which are on their way to being more descriptive.:** These go into adequate. The main thing is that they just have not shown that much thought and detail but are still provoking in some way. Ex: GoT post
+- **Lower effort posts that are descriptive:** These will be classified as low-effort. Any details which are purely descriptive and restating the question go into low_effort pile. Ex: (Memory, Sorrow, Thorns) Tad Williams as seen earlier.
+- **Adequate posts which are on their way to being more descriptive.:** These go into adequate. The main thing is that they just have not shown that much thought and detail but are still provoking in some way. Ex: GoT post as seen earlier.
+- **Casual or emotional is not low_effort, if you have detail + opinion it is substantive or adequate:** 
+>Just finished The Heroes by Joe Abercrombie for the first time. I hated it, but I loved it. I feel very conflicted about this one, I really did hate and love it.
+> I loved the characters, the new and the old set. I appreciated all of the banter, which often made me quite emotional, and all of the scheming.
+> But they were all. so. [expletive]. whiny.
+> Gorst aggravated me with his loads of self pity, all of the Union did really. The dozen also weren’t easy companions.
+> Which just goes to show how much free time you have in war, and how self-centred it makes you, despite everything going on around you.
+> I think what I struggled with the most was all of the wait, for things to happen, for the battles, for messages to come and go, for whatever character to come back from taking a [expletive] so the dialogue could go on.
+> But that’s also what I loved most about it, we catch a rare glimpse on what battle actually looks like. Of all the dead moments. All the embarrassing ones. All the very non heroic ones. No more comparisons to Juvens, to Harod the Great. Just men trying not to catch the bug while hanging out in the bushes.
+>Everything was just, mildly exciting at best. Not in a “oh my god this book has no plot” way, it felt very deliberate, very carefully executed. To me, the plot of the book IS the boredom, which I understand not 
+- I labelled the above example substantive because it is detailed beyond obseravation
+- **Unusual or distinctive does not mean substantive:**
+> Can someone reccomend a good sci-fi/fantasy with badly written characters/where characters don't matter?
+>I've always been a loner in a sense that I have yet to meet a person about whom I would care if they would suffer (unless it materially affects me). Likewise I don't care about human opinions and "inner world" unless it directly affects my material and I don't want people to love me or understand me beyond what's materially necessary. This makes reading fiction, especially the classic one, really hard since most of it is about that petty human drama. I've been reading old sci-fi and fantasy due to it with "bad characters" because no time is wasted on them but with interesting concepts like Lovecraft, Tolkien(Silmarillion), Clark Ashton Smith, Clarke, Asimov, Stapledon, Greg Egan, All Tomorrows, SCP and general hard sci-fi(I'm working in tech). I would love to learn other​ authors and media like that.
+- I labelled this adequate. It has observation and is unique but does not expand further.
 
 ### Questions to aid labeling
 1. Is anything specific said about something referenced or is it just named? If no, low effort. 
@@ -79,7 +93,7 @@ r/Fantasy is a discussion board for the broader fiction genre: it encompasses al
 ### Example source
 Examples are on r/Fantasy: will grab headings and post text together. 
 ### How many examples per label?
-We will use ~66-67 per label to get an even split. If a label is underrepresented, we will collect more. I will either hunt the reddit myself for posts or will re-run the scraper for more samples and verify. 
+We will use ~66-67 per label to get an even split. If a label is underrepresented, we will collect more. I will manually browse r/Fantasy and collect posts myself, verifying each one against the labeling guidelines. 
 
 ## Evaluation
 - **Overall Accuracy:** gives a sense of how the classifier is doing overall. 
