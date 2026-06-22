@@ -116,7 +116,7 @@ The baseline used Groq's llama-3.3-70b-versatile without any prior training. Eac
 ## Fine-tuning approach
 ### Base model and training platform
 - **Training platform:** Google Colab T4
-- **Base model:** distillbert is the base model.
+- **Base model:** DistilBERT-base-uncased is the base model.
 
 ### Hyperparamter decisions
 I lowered the learning rate to 1e-5 so that the model would update more slowly and so that low_effort and adequate would balance out by adequate becoming more properly fitted (reduce overfitting). This actually ended up backfiring and the model got worse. The results I have included are from the default parameter run. 
@@ -180,7 +180,14 @@ I would need more adequate examples, a tighter label definition, more labeling a
 > Predicted: low_effort  (confidence: 0.34)
 - Analysis: I agree with the model on this one and think it was mislabeled. The post does not make any decent observations.
 
-### Sample-Classifications table
+## Sample-Classifications Table
+
+| Post (excerpt) | Predicted Label | Confidence | Explanation |
+| :--- | :--- | :---: | :--- |
+| Looking for fantasy a bit more adult..? I think? So I got about 1/3rd through Dragons of Autumn Twilight. It was just too...simple? Extremely trope filled which is fine I guess. It just wasn't for me... | substantive | 0.37 | Incorrect, should be adequate. Post was not detailed enough and did not go beyond observation |
+| So I finished Assassin's Apprentice the other day and I think this might be my new favorite series. No spoilers please. It's been a long time since a world and its characters have captivated me like ... | substantive | 0.39 | Incorrect, should have been adequate. Did not reason enough with the take. |
+| REVIEW: CAMBER OF CULDI (Legends of Camber of Culdi Volume 1) by Katherine Kurtz (1976) CAMBER OF CULDI (The Legends of Camber of Culdi 1) by Katherine Kurtz(1976).PLOT | substantive | 0.40 | Correct. There are a lot of details and points made. |
+
 
 ## Reflection: What did the model learn vs. what I had intended it to learn?
 There was some annotation noise. I think for a couple of them the model learned well, but the training data was mislabeled. 
